@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/llCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen_15" android:layout_marginRight="@dimen/dimen_15">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="@dimen/dimen_24" android:textColor="@color/color_dc_dc_dc" android:gravity="center" android:id="@id/tvCode0" android:background="@drawable/app_shape_eeeeee_3" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+                <View android:id="@id/line0" android:background="@color/color_dc_dc_dc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/ivCode0" android:background="@drawable/app_shape_circle_8b8b8b_30" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="@dimen/dimen_24" android:textColor="@color/color_dc_dc_dc" android:gravity="center" android:id="@id/tvCode1" android:background="@drawable/app_shape_eeeeee_3" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+                <View android:id="@id/line1" android:background="@color/color_dc_dc_dc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/ivCode1" android:background="@drawable/app_shape_circle_8b8b8b_30" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="@dimen/dimen_24" android:textColor="@color/color_dc_dc_dc" android:gravity="center" android:id="@id/tvCode2" android:background="@drawable/app_shape_eeeeee_3" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+                <View android:id="@id/line2" android:background="@color/color_dc_dc_dc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/ivCode2" android:background="@drawable/app_shape_circle_8b8b8b_30" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="@dimen/dimen_24" android:textColor="@color/color_dc_dc_dc" android:gravity="center" android:id="@id/tvCode3" android:background="@drawable/app_shape_eeeeee_3" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+                <View android:id="@id/line3" android:background="@color/color_dc_dc_dc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/ivCode3" android:background="@drawable/app_shape_circle_8b8b8b_30" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="@dimen/dimen_24" android:textColor="@color/color_dc_dc_dc" android:gravity="center" android:id="@id/tvCode4" android:background="@drawable/app_shape_eeeeee_3" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+                <View android:id="@id/line4" android:background="@color/color_dc_dc_dc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/ivCode4" android:background="@drawable/app_shape_circle_8b8b8b_30" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" android:layout_marginStart="12.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="41.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="@dimen/dimen_24" android:textColor="@color/color_dc_dc_dc" android:gravity="center" android:id="@id/tvCode5" android:background="@drawable/app_shape_eeeeee_3" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+                <View android:id="@id/line5" android:background="@color/color_dc_dc_dc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            </LinearLayout>
+            <ImageView android:id="@id/ivCode5" android:background="@drawable/app_shape_circle_8b8b8b_30" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+    <EditText android:textColor="@android:color/transparent" android:id="@id/etCode" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/llCode" android:inputType="textPassword" />
+</RelativeLayout>

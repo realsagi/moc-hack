@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/common_dialog_background" android:paddingTop="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/color_00_00_00" android:layout_gravity="center_horizontal" android:id="@id/tv1" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="16.0dip" android:textColor="@color/color_00_00_00" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tv2" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <View android:background="@color/color_52_5a_65" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="20.0dip" android:alpha="0.2" />
+        <TextView android:textSize="15.0dip" android:textColor="@color/color_51_61_f0" android:gravity="center" android:id="@id/btn2" android:layout_width="fill_parent" android:layout_height="50.0dip" />
+    </LinearLayout>
+</RelativeLayout>

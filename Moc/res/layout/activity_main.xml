@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <Button android:textSize="@dimen/dimen_15" android:textColor="@color/color_00_00_00" android:id="@id/accessibility_setting_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:text="@string/go_to_accessibility_setting" android:textAllCaps="false" />
+        <Button android:textSize="@dimen/dimen_15" android:textColor="@color/color_00_00_00" android:id="@id/request_record_screen_permission" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/request_screen_record_permission" android:textAllCaps="false" />
+        <Button android:textSize="@dimen/dimen_15" android:textColor="@color/color_00_00_00" android:id="@id/show_float_window_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_float_window" android:textAllCaps="false" />
+        <Button android:textSize="@dimen/dimen_15" android:textColor="@color/color_00_00_00" android:id="@id/close_float_window_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/close_float_window" android:textAllCaps="false" />
+        <Button android:textSize="@dimen/dimen_15" android:textColor="@color/color_00_00_00" android:id="@id/open_camera_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="打开摄像头" android:textAllCaps="false" />
+        <Button android:textSize="@dimen/dimen_15" android:textColor="@color/color_00_00_00" android:id="@id/close_camera_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="关闭摄像头" android:textAllCaps="false" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

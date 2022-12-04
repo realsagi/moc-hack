@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_01_16_41" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout_top_bar" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dip">
+            <ImageView android:id="@id/llTop" android:background="@drawable/jd_loan_login_top_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <RelativeLayout android:id="@id/totallayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <com.mobilelive.showCommunity.view.InquirePassView android:layout_gravity="center_horizontal" android:id="@id/settingInquireCodeView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_17" android:layout_alignParentBottom="true" />
+            <com.mobilelive.showCommunity.view.InquirePassView android:layout_gravity="center_horizontal" android:id="@id/againSettingInquireCodeView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen_17" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

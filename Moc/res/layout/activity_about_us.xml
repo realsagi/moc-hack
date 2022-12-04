@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/color_01_16_41" android:fitsSystemWindows="true" android:clipToPadding="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_top_bar" />
+    <LinearLayout android:orientation="vertical" android:background="@color/color_ff_ff_ff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="150.0dip" android:src="@mipmap/full_wallet" android:scaleType="centerCrop" />
+        <TextView android:textSize="@dimen/dimen_15" android:textColor="@color/color_00_00_00" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/tvContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    </LinearLayout>
+</LinearLayout>

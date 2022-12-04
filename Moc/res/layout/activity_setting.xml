@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/control_ws_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ws://101.37.81.24:8888" android:hint="controller ws url" android:maxLines="2" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/h264_ws_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="ws://101.37.81.24:8888" android:hint="h264 ws url" android:maxLines="2" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="rtmp url">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/rtmp_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="rtmp://101.37.81.24/test" android:maxLines="2" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:dividerPadding="10.0dip">
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="frame rate" android:layout_weight="1.0">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/frame_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="bit rate" android:layout_weight="1.0">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/bit_rate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:dividerPadding="10.0dip">
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="recording width" android:layout_weight="1.0">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/record_width" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="recording height" android:layout_weight="1.0">
+                <com.google.android.material.textfield.TextInputEditText android:id="@id/record_height" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+        <RadioGroup android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:id="@id/rtmp_radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RTMP" />
+            <RadioButton android:id="@id/ws_radio_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="h264 ws" />
+        </RadioGroup>
+        <Switch android:id="@id/enable_save_toggle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="save H264 data to disk" />
+        <Button android:id="@id/save_ws_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="save" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <Button android:id="@id/request_record_screen_permission" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="request screen record permission" />
+        <Button android:id="@id/start_record" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="start record" android:layout_weight="1.0" />
+        <Button android:id="@id/start_upload" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="start upload record" android:layout_weight="1.0" />
+        <Button android:id="@id/stop_record" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="stop screen record" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/open_camera_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="打开摄像头权限" android:textAllCaps="false" />
+            <Button android:id="@id/caiji_camera_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开始采集摄像头数据" android:textAllCaps="false" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/close_camera_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="关闭摄像头" android:textAllCaps="false" />
+            <Button android:id="@id/switch_camera_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="切换摄像头" android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
